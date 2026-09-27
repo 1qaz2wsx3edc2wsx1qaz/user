@@ -42,7 +42,7 @@ if st.button("情報を保存"):
         # 職業に合わせたおもしろ演出
     if syokugyou in ["apple", "google", "Microsoft"]:
         st.balloons() # エリートには風船を飛ばす！
-        st.info("すげえ！IT企業のエリートだ！")
+        st.info("す・す・すげえ！IT企業のエリートだ！")
     elif syokugyou == "ニート":
         st.warning("お家最高！でもたまには外に出ようね！")
             # 👇ここを新しく追加したよ！バイトかパートだったら応援する！
